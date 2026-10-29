@@ -1,0 +1,81 @@
+{
+  "name": "corporate_navy",
+  "typography": {
+    "font_family": "Aptos",
+    "title_size": 12.0,
+    "subtitle_size": 9.0,
+    "super_header_size": 10.0,
+    "col_header_size": 10.0,
+    "section_header_size": 10.0,
+    "data_size": 10.0,
+    "section_header_underline": true
+  },
+  "metrics": {
+    "title_row_height": 24.0,
+    "header_row_height": 18.0,
+    "section_row_height": 18.0,
+    "data_row_height": 15.0,
+    "gutter_row_height": 9.0,
+    "gutter_col_width": 3.0,
+    "title_gutter_row_height": 8.0,
+    "char_width_multiplier": 1.0,
+    "col_padding": 0.0,
+    "min_col_width": 12.0
+  },
+  "palette": {
+    "table_title_fill": "#1B365D",
+    "table_title_text": "#FFFFFF",
+    "table_subtitle_text": "#4B5563",
+    "super_header_fill": "#ced4da",
+    "super_header_text": "#000000",
+    "col_header_fill": "none",
+    "col_header_text": "#000000",
+    "section_header_fill": "none",
+    "section_header_text": "#000000",
+    "data_fill": "none",
+    "data_text": "#000000",
+    "subtotal_fill": "none",
+    "subtotal_text": "#000000",
+    "total_fill": "none",
+    "total_text": "#000000",
+    "input_text": "#0000FF",
+    "formula_text": "#000000",
+    "shade_muted_fill": "#F8FAFC",
+    "shade_accent_fill": "#EFF6FF",
+    "shade_alt_fill": "#F1F5F9",
+    "highlight_fill": "#FEF3C7",
+    "highlight_text": "#000000",
+    "gridline_color": "#E5E7EB",
+    "border_color": "#000000",
+    "total_border_color": "#1B365D"
+  },
+  "borders": {
+    "table_title_border_bottom": "none",
+    "super_header_border_bottom": "none",
+    "header_border_bottom": "thin",
+    "descriptor_border_right": "none",
+    "subtotal_border_top": "thin",
+    "total_border_top": "thin",
+    "total_border_bottom": "double",
+    "col_subtotal_border_left": "thin",
+    "col_total_border_left": "thin",
+    "col_total_border_right": "double"
+  },
+  "number_formats": {
+    "currency": "{sym}#,##0{dec}_);({sym}#,##0{dec});\"-\"_)",
+    "number": "#,##0{dec}_);(#,##0{dec});\"-\"_)",
+    "percentage": "0{dec}%_);(0{dec}%);\"-\"_)",
+    "multiple": "0{dec}\"x\"_);(0{dec}\"x\");\"-\"_)",
+    "basis_points": "#,##0{dec}\" bps\"_);(#,##0{dec}\" bps\");\"-\"_)",
+    "date": "yyyy-mm-dd",
+    "text": "@_)",
+    "integer": "0_);(-0);\"-\"_)",
+    "defaults": {
+      "currency_decimals": 0,
+      "number_decimals": 0,
+      "percentage_decimals": 1,
+      "multiple_decimals": 1,
+      "basis_points_decimals": 0
+    }
+  }
+}

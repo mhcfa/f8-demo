@@ -1,0 +1,37 @@
+[project]
+name = "f8-demo"
+version = "0.1.0"
+description = "Institutional financial models and reference architectures built on f8-engine"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "f8-engine>=0.3.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1",
+    "pytest>=8.0",
+    "ruff>=0.9",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.pyright]
+include = ["models", "tests"]
+extraPaths = ["."]
+venvPath = "."
+venv = ".venv"
+pythonVersion = "3.12"
+typeCheckingMode = "strict"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
