@@ -62,6 +62,10 @@ f8-demo/
     └── lbo/                    # LBO regression test suite & benchmark fixtures
 ```
 
+## Disclaimer
+
+This repository, code, and emitted financial models are strictly for educational, illustrative, and demonstration purposes. All figures, valuations, and financial assumptions are entirely hypothetical. Nothing contained in this repository constitutes investment, legal, tax, or financial advice. The author assumes no liability for any actions taken or decisions made based on this material.
+
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE).
